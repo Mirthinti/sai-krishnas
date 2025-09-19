@@ -19,7 +19,7 @@ export default function App() {
       <main>
         <section className="container">
           <h2>About</h2>
-          <p>Motivated Software Engineer with a foundation in Mathematics, Statistics, and Computer Science.</p>
+          <p>Software Engineer focused on backend and data work, combining Python, SQL,and Unix to buildreliable systems and surface actionable insights; passionate about debugging, automation, and measurable impact.</p>
           <p>Analyst Trainee at Cognizant; prior team lead at Datavalley.</p>
           <p>Skilled in Python, SQL, Unix, backend development, debugging, testing, automation, and data analysis.</p>
         </section>
