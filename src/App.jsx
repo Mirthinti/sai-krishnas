@@ -24,6 +24,18 @@ export default function App() {
           <p>Skilled in Python, SQL, Unix, backend development, debugging, testing, automation, and data analysis.</p>
         </section>
         <section className="container">
+          <section className="container">
+    <h2>Skills</h2>
+    <div className="skills">
+      <span className="badge">Python</span>
+        <span className="badge">SQL</span>
+      <span className="badge">PL/SQL</span>
+      <span className="badge">Unix</span>
+      <span className="badge">Git</span>
+      <span className="badge">React</span>
+      <span className="badge">Vite</span>
+    </div>
+    </section>
           <h2>Projects</h2>
           <div className="grid">
             <a className="card" href="https://github.com/Mirthinti/Online-Examination-System">
