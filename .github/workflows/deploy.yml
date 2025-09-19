@@ -23,7 +23,7 @@ jobs:
           node-version: lts/*
           cache: 'npm'
       - name: Install
-        run: npm ci
+        run: npm install --no-fund --no-
       - name: Build
         run: npm run build
       - name: Configure Pages
