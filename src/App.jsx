@@ -68,14 +68,14 @@ export default function App() {
             <a className="card" href="https://github.com/Mirthinti/Automation-scripts"><h3>Automation-scripts</h3><p>Python automation (fork).</p></a>
           </div>
         </section>
-        <section className="container">
-          <h2>Charts</h2>
-          <div className="grid">
-            <img className="card" src="/sai-krishnas/images/sales-2025.png" alt="Monthly Sales 2025" />
-            <img className="card" src="/sai-krishnas/images/categories-2025.png" alt="Category distribution" />
-            <img className="card" src="/sai-krishnas/images/traffic-2025.png" alt="Traffic sources 2025" />
-          </div>
-        </section>
+       <section className="container">
+  <h2>Charts</h2>
+  <div className="grid charts-grid">
+    <img className="card charts-img" src="/images/sales-2025.png" alt="Monthly Sales 2025" />
+    <img className="card charts-img" src="/images/categories-2025.png" alt="Category distribution" />
+    <img className="card charts-img" src="/images/traffic-2025.png" alt="Traffic sources 2025" />
+  </div>
+</section>
       </main>
       <footer className="site-footer">
         <div className="container"><p>© {new Date().getFullYear()} Sai Krishna • Email · LinkedIn · GitHub</p></div>
