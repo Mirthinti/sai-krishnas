@@ -33,7 +33,9 @@ export default function App() {
       <span className="badge">Unix</span>
       <span className="badge">Git</span>
       <span className="badge">React</span>
-      <span className="badge">Vite</span>
+      <span className="badge">javascript</span>
+       <span className="badge">Django</span>
+       <span className="badge">MongoDB</span>
     </div>
     </section>
           <h2>Projects</h2>
