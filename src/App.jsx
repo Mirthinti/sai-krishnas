@@ -1,3 +1,5 @@
+import React from 'react'
+const B = import.meta.env.BASE_URL; // '/sai-krishnas/' in production
 export default function App() {
   return (
     <div>
@@ -70,12 +72,12 @@ export default function App() {
             <a className="card" href="https://github.com/Mirthinti/Automation-scripts"><h3>Automation-scripts</h3><p>Python automation (fork).</p></a>
           </div>
         </section>
-      <section className="container">
+     <section className="container">
   <h2>Charts</h2>
   <div className="grid charts-grid">
-    <img className="card charts-img" src="/images/sales-2025.png" alt="Monthly Sales 2025" />
-    <img className="card charts-img" src="/images/categories-2025.png" alt="Category distribution" />
-    <img className="card charts-img" src="/images/traffic-2025.png" alt="Traffic sources 2025" />
+    <img className="card charts-img" src={`${B}images/sales-2025.png`} alt="Monthly Sales 2025" />
+    <img className="card charts-img" src={`${B}images/categories-2025.png`} alt="Category distribution" />
+    <img className="card charts-img" src={`${B}images/traffic-2025.png`} alt="Traffic sources 2025" />
   </div>
 </section>
       </main>
