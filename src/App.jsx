@@ -31,6 +31,7 @@ export default function App() {
     <div className="skills">
       <span className="badge">Python</span>
         <span className="badge">MySQL</span>
+      <span className="badge">Bash</span>
       <span className="badge">PL/SQL</span>
       <span className="badge">Unix</span>
       <span className="badge">Git</span>
