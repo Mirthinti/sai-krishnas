@@ -33,6 +33,7 @@ export default function App() {
         <span className="badge">MySQL</span>
       <span className="badge">Bash</span>
       <span className="badge">PL/SQL</span>
+      <span className="badge">Data Analysis</span>
       <span className="badge">Unix</span>
       <span className="badge">Git</span>
       <span className="badge">React</span>
