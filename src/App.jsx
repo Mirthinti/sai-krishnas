@@ -30,7 +30,7 @@ export default function App() {
     <h2>Skills</h2>
     <div className="skills">
       <span className="badge">Python</span>
-        <span className="badge">SQL</span>
+        <span className="badge">MySQL</span>
       <span className="badge">PL/SQL</span>
       <span className="badge">Unix</span>
       <span className="badge">Git</span>
