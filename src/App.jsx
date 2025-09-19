@@ -68,7 +68,7 @@ export default function App() {
             <a className="card" href="https://github.com/Mirthinti/Automation-scripts"><h3>Automation-scripts</h3><p>Python automation (fork).</p></a>
           </div>
         </section>
-       <section className="container">
+      <section className="container">
   <h2>Charts</h2>
   <div className="grid charts-grid">
     <img className="card charts-img" src="/images/sales-2025.png" alt="Monthly Sales 2025" />
