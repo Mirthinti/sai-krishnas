@@ -75,6 +75,9 @@ export default function App() {
      <section className="container">
   <h2>Charts</h2>
   <div className="grid charts-grid">
+    import sales from '../assets/sales-2025.png'
+    import cats from '../assets/categories-2025.png'
+    import traffic from '../assets/traffic-2025.png'
     <img className="card charts-img" src={`${B}images/sales-2025.png`} alt="Monthly Sales 2025" />
     <img className="card charts-img" src={`${B}images/categories-2025.png`} alt="Category distribution" />
     <img className="card charts-img" src={`${B}images/traffic-2025.png`} alt="Traffic sources 2025" />
