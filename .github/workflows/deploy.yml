@@ -3,13 +3,16 @@ on:
   push:
     branches: ['main']
   workflow_dispatch:
+ 
 permissions:
   contents: read
   pages: write
   id-token: write
+ 
 concurrency:
   group: 'pages'
   cancel-in-progress: true
+ 
 jobs:
   deploy:
     environment:
@@ -17,18 +20,30 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v5
+ 
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # Remove cache to avoid lockfile checks
+          cache: ''
+ 
       - name: Install
         run: npm install --no-fund --no-audit
+ 
       - name: Build
         run: npm run build
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
+ 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+ 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: './dist'
-      - id: deployment
+ 
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
