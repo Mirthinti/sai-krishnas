@@ -63,9 +63,10 @@ export default function App() {
           <h2>Projects</h2>
           <div className="grid">
             <a className="card" href="https://github.com/Mirthinti/ams-sla-automation">
-              <h3>AMS SLA Breach Automation</h3>
-              <p>Python, pandas, openpyxl — Automated daily SLA breach reporting for enterprise incident management, replacing a 5x/day manual process across 3 shifts. Scheduled and unattended via Windows Task Scheduler.</p>
-            </a>
+  <img src="/sai-krishnas/images/ams-sla-code.png" alt="SLA automation code" />
+  <h3>AMS SLA Breach Automation</h3>
+  <p>Python, pandas, openpyxl — Automated daily SLA breach reporting for enterprise incident management, replacing a 5x/day manual process across 3 shifts. Scheduled and unattended via Windows Task Scheduler.</p>
+</a>
             <a className="card" href="https://github.com/Mirthinti/Online-Examination-System">
               <img src="/sai-krishnas/images/exam-dashboard-1.jpg" alt="Online Examination dashboard" />
               <h3>Online Examination System</h3>
