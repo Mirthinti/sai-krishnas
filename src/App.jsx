@@ -52,7 +52,7 @@ export default function App() {
         <section className="container">
           <h2>Certifications</h2>
           <div className="skills">
-            <a className="badge" href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=39AC59568BE2579FF2C162BB079146DCEBE53544418A5A2731E3C140E51B7A95" target="_blank" rel="noreferrer">
+            <a className="badge" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=39AC59568BE2579FF2C162BB079146DCEBE53544418A5A2731E3C140E51B7A95">
               Oracle Cloud Infrastructure Certified Architect Associate
             </a>
             <span className="badge">AWS Certified Solutions Architect – Associate (in progress)</span>
