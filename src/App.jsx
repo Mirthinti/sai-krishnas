@@ -20,11 +20,15 @@ export default function App() {
       </header>
       <main>
         <section className="container">
-          <h2>About</h2>
-          <p>Software Engineer focused on backend and data work, combining Python, SQL,and Unix to buildreliable systems and surface actionable insights; passionate about debugging, automation, and measurable impact.</p>
-          <p>Analyst Trainee at Cognizant; prior team lead at Datavalley.</p>
-          <p>Skilled in Python, SQL, Unix, backend development, debugging, testing, automation, and data analysis.</p>
-        </section>
+          <section className="container">
+  <h2>About</h2>
+  <p><strong>I build software that turns messy problems into working systems.</strong></p>
+  <p>I'm a software engineer focused on Python, backend engineering, and data — the kind of work where you take something manual, scattered, or repetitive and turn it into something automated, reliable, and unattended.</p>
+  <p>At Cognizant, I built and deployed a production automation that replaced a 5x/day manual reporting process across a 3-shift team — real data, real edge cases, real debugging. Alongside that, I work daily with Python, SQL, and Unix, and I'm currently working toward the AWS Certified Solutions Architect certification to deepen my grasp of how systems actually run in production.</p>
+  <p>Outside of work, I'm building with FastAPI, PostgreSQL, and APIs — learning by shipping, breaking, and fixing things, not just reading about them.</p>
+  <p>My goal isn't to collect technologies. It's to become the engineer who can take an idea from <strong>problem → architecture → code → deployment → impact.</strong></p>
+  <p>Currently looking for opportunities to contribute to backend, software, or data engineering — and grow alongside a team building something people actually use.</p>
+</section>
         <section className="container">
           <section className="container">
     <h2>Skills</h2>
