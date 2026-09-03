@@ -1,5 +1,4 @@
 import React from 'react'
-const B = import.meta.env.BASE_URL; // '/sai-krishnas/' in production
 export default function App() {
   return (
     <div>
@@ -8,7 +7,7 @@ export default function App() {
           <img className="avatar" src="/sai-krishnas/images/headshot.jpg" alt="Profile photo" />
           <div>
             <h1 className="title">Sai Krishna</h1>
-            <p className="tag">Software Engineer & Data Enthusiast — Backend, Unix, Data Analysis</p>
+            <p className="tag">Backend Engineer in Progress — Python, Cloud, Automation</p>
             <div className="cta">
               <a className="btn" href="mailto:msaikrishna1073@gmail.com">Email</a>
               <a className="btn ghost" href="https://www.linkedin.com/in/sai-krishna-mirthinti">LinkedIn</a>
@@ -53,7 +52,9 @@ export default function App() {
         <section className="container">
           <h2>Certifications</h2>
           <div className="skills">
-            <span className="badge">Oracle Cloud Infrastructure Certified Architect Associate</span>
+            <a className="badge" href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=39AC59568BE2579FF2C162BB079146DCEBE53544418A5A2731E3C140E51B7A95" target="_blank" rel="noreferrer">
+              Oracle Cloud Infrastructure Certified Architect Associate
+            </a>
             <span className="badge">AWS Certified Solutions Architect – Associate (in progress)</span>
             <span className="badge">Google Associate Cloud Engineer (in progress)</span>
           </div>
@@ -63,10 +64,10 @@ export default function App() {
           <h2>Projects</h2>
           <div className="grid">
             <a className="card" href="https://github.com/Mirthinti/ams-sla-automation">
-  <img src="/sai-krishnas/images/ams-sla-code.png" alt="SLA automation code" />
-  <h3>AMS SLA Breach Automation</h3>
-  <p>Python, pandas, openpyxl — Automated daily SLA breach reporting for enterprise incident management, replacing a 5x/day manual process across 3 shifts. Scheduled and unattended via Windows Task Scheduler.</p>
-</a>
+              <img src="/sai-krishnas/images/ams-sla-code.png" alt="SLA automation code" />
+              <h3>AMS SLA Breach Automation</h3>
+              <p>Python, pandas, openpyxl — Automated daily SLA breach reporting for enterprise incident management, replacing a 5x/day manual process across 3 shifts. Scheduled and unattended via Windows Task Scheduler.</p>
+            </a>
             <a className="card" href="https://github.com/Mirthinti/Online-Examination-System">
               <img src="/sai-krishnas/images/exam-dashboard-1.jpg" alt="Online Examination dashboard" />
               <h3>Online Examination System</h3>
@@ -97,15 +98,6 @@ export default function App() {
               <h3>Automation-scripts</h3>
               <p>Contributed Python automation scripts to an open-source repo.</p>
             </a>
-          </div>
-        </section>
-
-        <section className="container">
-          <h2>Charts</h2>
-          <div className="grid charts-grid">
-            <img className="card charts-img" src={`${B}images/sales-2025.png`} alt="Monthly Sales 2025" />
-            <img className="card charts-img" src={`${B}images/categories-2025.png`} alt="Category distribution" />
-            <img className="card charts-img" src={`${B}images/traffic-2025.png`} alt="Traffic sources 2025" />
           </div>
         </section>
       </main>
