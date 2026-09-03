@@ -42,9 +42,22 @@ export default function App() {
       <span className="badge">Git</span>
       <span className="badge">React</span>
       <span className="badge">javascript</span>
-       <span className="badge">Django</span>
+              <span className="badge">Django</span>
        <span className="badge">MongoDB</span>
+       <span className="badge">FastAPI</span>
+       <span className="badge">PostgreSQL</span>
+       <span className="badge">Oracle Cloud Infrastructure</span>
+       <span className="badge">Google Cloud</span>
     </div>
+    </section>
+
+    <section className="container">
+      <h2>Certifications</h2>
+      <div className="skills">
+        <span className="badge">Oracle Cloud Infrastructure Certified Architect Associate</span>
+        <span className="badge">AWS Certified Solutions Architect – Associate (in progress)</span>
+        <span className="badge">Google Associate Cloud Engineer (in progress)</span>
+      </div>
     </section>
           <h2>Projects</h2>
           <div className="grid">
